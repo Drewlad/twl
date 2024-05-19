@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0cm;
+}
+.nav1{
+    margin-top: 1%;
+    text-align:right;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    text-align: center;
+}
+h3{
+    display: inline;
+    margin:1cm;
+}
+#h41{
+    text-align: center;
+    font-size: medium;
+}
+aside{
+    width: 10%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 50%;
+    float: right;
+    padding: 10px;
+}
+#img1{
+    width: 10cm;
+    border-radius: 40%;
+}
+#img2i{
+    height:60px;
+ background-color: hsl(0, 0%, 39%);
+ border-radius: 100%;
+}
+#img2{
+    background-color: hsl(0, 1%, 28%);
+    border-radius: 100px;
+}
+#img2:hover{
+    background-color: hwb(0 100% 0%);
+}
+#img2i:hover{
+    background-color: rgb(255,100,100);
+}
+#img2gh{
+    height:55px;
+    border-radius: 1cm;
+}
+#img2gh:hover{
+    background-color: hsl(120, 59%, 52%);
+}
+footer{
+    
+    display: block;
+    text-align: center;
+    clear: both;
+    background-color: hsl(0, 1%, 28%);
+}
+h5{
+    text-align: left;
+}
+.about{
+    clear: both;
+    margin: 0%;
+    padding: 10px;
+}
+#project{
+    border: 1px solid hsl(0, 1%, 28%);
+    width:10cm;
+    border-radius: 10%;
+}
+#project:hover{
+    border: 1px solid hsl(0, 0%, 0%);
+}
+h4{
+    text-align: center;
+}
+button{
+    text-align: left;
+    margin-left: 0.5cm;
+    margin-bottom: 0.5cm;
+    border-radius: 40%;
+    background-color:hsl(0, 0%, 50%);
+}
+button:hover{
+    background-color:hsl(0, 0%, 20%);
+}
+@media screen and (max-width:900px) {
+    aside, article{
+        width: 100%;
+    }
+    
+}
